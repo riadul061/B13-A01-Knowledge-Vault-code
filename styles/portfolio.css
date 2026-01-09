@@ -143,9 +143,8 @@ nav .menu a{
     background: rgba(249, 85, 85, 1);
     max-width: 60px;
     margin-bottom: 30px;
+  
 }
-/* .skill-card .img img{ */
-
 
 
 .skill-card h3{
@@ -160,3 +159,79 @@ nav .menu a{
     line-height: 20px;
 
 }
+#skills .solution{
+  display: flex;
+  justify-content: right;
+  gap: 60px;
+  align-items:center;
+}
+
+#skills .solution h2{
+  
+  gap: 60px;
+  align-items: center;
+  font-size: 48px;
+  margin-bottom: 20px;
+}
+
+#skills .solution p{
+  font-size: 16px;
+  margin-bottom: 20px;
+}
+#skills .solution ul{
+  list-style: none;
+}
+#skills .solution li{
+  margin-bottom: 16px;
+  color:var(--Style, rgba(0, 25, 49, 1));
+}
+
+#skills .solution h2 p ul li{
+  display: -moz-box;
+  justify-content: right;
+  gap: 60px;
+  align-items: center;
+
+}
+.cta{
+  background:rgba(247, 246, 242, 1) ;
+width: 1360px;
+height: 384px;
+display: flex;
+flex-direction: column;
+justify-content: flex-start;
+align-items: center;
+gap: 24;
+padding: 80px 40px 80px 40px;
+
+
+}
+.cta h3{
+  color: var(--Style, rgba(0, 25, 49, 1));
+font-size: 40px;
+font-weight: 700;
+line-height: 48px;
+letter-spacing: 0%;
+text-align: center;
+text-transform: capitalize;
+}
+.cta p{
+  color: var(--#627382, rgba(98, 115, 130, 1));
+font-size: 16px;
+font-weight: 400;
+line-height: 24px;
+letter-spacing: 0%;
+text-align: center;
+}
+.btn .btn-primary{
+  color: rgba(255, 255, 255, 1);
+font-style: Semi Bold;
+font-size: 16px;
+font-weight: 600;
+line-height: 19px;
+letter-spacing: 0%;
+text-align: left;
+text-transform: capitalize;
+display: inline-block;
+}
+
