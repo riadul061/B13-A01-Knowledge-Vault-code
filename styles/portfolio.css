@@ -234,4 +234,40 @@ text-align: left;
 text-transform: capitalize;
 display: inline-block;
 }
+footer{
+    margin-top: 120px;
+    background-color:var(--Style, rgba(0, 25, 49, 1));
+    padding: 120px 30px;
+}
+footer .footer-container{
+    width: 85%;
+    max-width: 1360px;
+    margin: 0 auto;
+    display: flex;
+    gap: 120px;
+}
+footer .footer-container img{
+  width: 139px;
+height: 60px;
+}
+.footer-container .social{
+    color: rgba(250, 250, 250, 1);
+font-size: 16px;
+font-weight: 400;
+line-height: 24px;
+letter-spacing: 0%;
+text-align: center;
 
+}
+.footer-container .icons h5{
+
+  width: 113px;
+height: 28px;  
+}
+
+.footer-container .icons a{
+  width: 20px;
+height: 20px;
+color: rgba(255, 255, 255, 1);
+cursor: pointer;
+}
