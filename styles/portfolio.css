@@ -53,7 +53,7 @@ nav .menu a{
   cursor: pointer;
 }
 .banner{
-  background: url(../hero-bg.png);
+  background: url(../images/assets/hero-bg.png);
   background-size: cover;
   background-position: center;
   color: rgba(0, 25, 49, 0.8);
@@ -96,4 +96,67 @@ nav .menu a{
   border-radius: 8px;
   color: rgba(255, 255, 255, 1);
   margin: 16.5px 46px 16px;
+}
+
+
+.section-heading{
+    max-width: 1360px;
+    text-align: center;
+    margin: 0 auto;
+}
+
+.section-heading h2{
+    font-size: 48px;
+    line-height: 58px;
+    text-transform: capitalize;
+    text-align: center;
+    margin-bottom: 30px;
+}
+
+
+.section-heading p{
+    font-size: 16px;
+    display: flex;
+    justify-content: center;
+    gap: 16px;
+    color: #001931;
+}
+
+#skills .skills-container{
+    width: 85%;
+    max-width: 1360px;
+    margin: 0 auto;
+}
+
+#skills .skills-container .skill-box{
+    display: flex;
+    gap: 16px;
+}
+
+.skill-box .skill-card{
+    padding: 24px;
+    box-shadow: 0 0px 8px 0 rgba(255, 255, 255, 1);
+    max-width: 322px;
+}
+
+.skill-card img{
+    background: rgba(249, 85, 85, 1);
+    max-width: 60px;
+    margin-bottom: 30px;
+}
+/* .skill-card .img img{ */
+
+
+
+.skill-card h3{
+    font-size: 24px;
+    color: rgba(0, 25, 49, 1);
+    margin-bottom: 16px;
+}
+
+.skill-card p{
+    font-size: 16px;
+    color:rgba(98, 115, 130, 1) ;
+    line-height: 20px;
+
 }
